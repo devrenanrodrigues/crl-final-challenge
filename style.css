@@ -76,6 +76,7 @@ img {
   width: 90%;
   max-width: 1200px;
   margin-inline: auto;
+  position: relative;
 }
 
 .col {
@@ -88,4 +89,96 @@ img {
 header {
   background-color: var(--clr-primary-dark);
   padding-block: var(--fs-30);
+}
+
+/* ---------- navigation ---------- */
+.nav-toggle {
+  cursor: pointer;
+  border: 0;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: var(--clr-primary);
+  color: var(--clr-white);
+  position: absolute;
+  right: 0;
+  transition: opacity 250ms ease;
+}
+
+.nav-toggle:focus,
+.nav-toggle:hover {
+  opacity: .75;
+}
+
+.hamburger {
+  width: 50%;
+  position: relative;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+  display: block;
+  margin-inline: auto;
+  height: 3px;
+  background-color: var(--clr-white);
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: '';
+  width: 100%;
+}
+
+.hamburger::before {
+  transform: translateY(-6px);
+}
+
+.hamburger::after {
+  transform: translateY(3px);
+}
+
+.nav {
+  width: 100%;
+  visibility: hidden;
+  height: 0;
+  position: absolute;
+}
+
+.nav__list {
+  text-align: center;
+}
+
+.nav__list--main {
+  margin-bottom: 2em;
+}
+
+.list__item {
+  margin-block: 1em;
+}
+
+.nav__link {
+  font-family: var(--ff-title);
+  font-weight: var(--fw-700);
+  font-size: var(--fs-18);
+  text-transform: uppercase;
+  color: var(--clr-white);
+  transition: opacity 250ms ease;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+  opacity: .65;
+}
+
+.nav__link--btn {
+  background-color: var(--crl-brown-light);
+  padding: .25em 1em;
+  border-radius: 10rem;
+}
+
+.nav--visible {
+  visibility: visible;
+  height: auto;
+  position: relative;
 }
