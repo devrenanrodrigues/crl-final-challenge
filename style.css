@@ -1,0 +1,85 @@
+:root {
+  font-size: 62.5%;/* 1rem = 10px */
+  --fs-16: 1.6rem;
+  --fs-18: 1.8rem;
+  --fs-21: 2.1rem;
+  --fs-24: 2.4rem;
+  --fs-30: 3rem;
+  --fs-36: 3.6rem;
+  --fs-90: 9rem;
+  /* font-weight */
+  --fw-400: 400;
+  --fw-700: 700;
+  /* font-family */
+  --ff-normal: 'Montserrat', sans-serif;
+  --ff-title: 'Oswald', sans-serif;
+  /* colors */
+  --clr-primary: #3B4050;
+  --clr-primary-dark: #2E323F;
+  --crl--primary-light: #6F737F;
+  --clr-white: white;
+  --crl-off-white: #f1f1f1;
+  --crl-brown-light: #A59678;
+}
+
+/* ---------- reset ---------- */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ---------- general settings ---------- */
+body {
+  font-family: var(--ff-normal);
+  font-size: var(--fs-16);
+  font-weight: var(--fw-400);
+}
+
+section,
+footer {
+  padding-block: var(--fs-90);
+}
+
+h1, h2, h3 {
+  font-family: var(--ff-title);
+  font-weight: 700;
+}
+
+p {
+  margin-block: var(--fs-24);
+  line-height: 1.5;
+  color: var(--clr-primary-dark);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+span {
+  color: var(--crl-brown-light);
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+.col {
+  text-align: center;
+  margin-block: var(--fs-21);
+  padding: 2em;
+}
