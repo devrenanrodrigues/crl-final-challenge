@@ -83,3 +83,9 @@ img {
   margin-block: var(--fs-21);
   padding: 2em;
 }
+
+/* ---------- header ---------- */
+header {
+  background-color: var(--clr-primary-dark);
+  padding-block: var(--fs-30);
+}
