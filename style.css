@@ -329,4 +329,9 @@ footer {
   .hero__content {
     align-self: flex-end;
   }
+
+  /* ---------- section__info ---------- */
+  .section__info .col {
+    padding: 0;
+  }
 }
