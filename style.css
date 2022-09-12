@@ -85,6 +85,23 @@ img {
   padding: 2em;
 }
 
+.btn {
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: var(--ff-title);
+  font-size: var(--fs-24);
+  background-color: var(--crl-brown-light);
+  color: var(--clr-white);
+  padding: .25em 2em;
+  border-radius: 10rem;
+  transition: opacity 250ms ease;
+}
+
+.btn:hover,
+.btn:focus {
+  opacity: .65;
+}
+
 /* ---------- header ---------- */
 header {
   background-color: var(--clr-primary-dark);
