@@ -250,6 +250,7 @@ header {
 
 .sidebar .col__text {
   color: var(--clr-white);
+
 }
 
 /* ---------- footer ---------- */
@@ -333,5 +334,13 @@ footer {
   /* ---------- section__info ---------- */
   .section__info .col {
     padding: 0;
+  }
+}
+
+/* ---------- large screen ---------- */
+@media (min-width: 1000px) {
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
   }
 }
