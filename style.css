@@ -285,3 +285,48 @@ footer {
 .footer__link:focus {
   opacity: .65;
 }
+
+/* ---------- medium screen ---------- */
+@media (min-width: 700px) {
+  .row {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+  }
+
+  /* ---------- navigation ---------- */
+
+  .nav-toggle {
+    display: none;
+  }
+
+  .nav {
+    visibility: visible;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .nav__list {
+    display: flex;
+    gap: 1em;
+  }
+  .nav__list--main {
+    margin-right: 2em;
+    margin-bottom: 0;
+  }
+
+  .list__item {
+    margin-block: 0;
+    margin-right: 1em;
+  }
+
+  /* ---------- hero---------- */
+  .hero__title {
+    font-size: calc(var(--fs-30) + var(--fs-30));
+  }
+  .hero__content {
+    align-self: flex-end;
+  }
+}
