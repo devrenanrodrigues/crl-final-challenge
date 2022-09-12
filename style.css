@@ -90,6 +90,10 @@ img {
   color: var(--crl-brown-light);
 }
 
+.col__text {
+  margin-bottom: 0;
+}
+
 .btn {
   display: inline-block;
   text-transform: uppercase;
