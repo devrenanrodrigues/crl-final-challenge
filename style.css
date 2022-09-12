@@ -85,6 +85,11 @@ img {
   padding: 2em;
 }
 
+.col__title {
+  font-size: var(--fs-24);
+  color: var(--crl-brown-light);
+}
+
 .btn {
   display: inline-block;
   text-transform: uppercase;
