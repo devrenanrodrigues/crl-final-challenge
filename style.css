@@ -251,3 +251,37 @@ header {
 .sidebar .col__text {
   color: var(--clr-white);
 }
+
+/* ---------- footer ---------- */
+footer {
+  background-color: var(--clr-primary);
+}
+
+.footer__title {
+  font-size: var(--fs-24);
+  color: var(--clr-white);
+  margin-bottom: var(--fs-36);
+}
+
+.footer__subtitle {
+  color: var(--crl-brown-light);
+  font-size: var(--fs-21);
+}
+
+.footer__text {
+  color: var(--crl-off-white);
+}
+
+.footer__item {
+  margin-block: 1em;
+}
+
+.footer__link {
+  color: var(--crl-off-white);
+  transition: opacity 250ms ease;
+}
+
+.footer__link:hover,
+.footer__link:focus {
+  opacity: .65;
+}
