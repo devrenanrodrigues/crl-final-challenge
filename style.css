@@ -300,7 +300,6 @@ footer {
   }
 
   /* ---------- navigation ---------- */
-
   .nav-toggle {
     display: none;
   }
@@ -338,6 +337,10 @@ footer {
   /* ---------- section__info ---------- */
   .section__info .col {
     padding: 0;
+  }
+
+  .footer__title {
+    font-size: var(--fs-30);
   }
 }
 
