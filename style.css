@@ -343,4 +343,68 @@ footer {
     display: flex;
     justify-content: space-between;
   }
+
+  .col__title {
+    font-size: var(--fs-30);
+  }
+
+  .col__text {
+    font-size: var(--fs-18);
+  }
+/* ---------- hero ---------- */
+  .hero__title {
+    font-size: var(--fs-90);
+    width: 40%;
+  }
+
+  .hero__content {
+    width: 45%;
+    margin-right: 10%;
+  }
+
+  .hero__text {
+    font-size: var(--fs-24);
+  }
+
+  /* ---------- section__three ---------- */
+  .wrapper .sidebar .col{
+    margin-top: 0;
+  }
+  .section__content {
+    width: 55%;
+  }
+  .section__title {
+    font-size: var(--fs-36);
+  }
+
+  .section__text {
+    font-size: var(--fs-21);
+  }
+
+  .sidebar {
+    display: block;
+    width: 35%;
+  }
+
+  .sidebar .col__title {
+    font-size: var(--fs-30);
+  }
+
+  /* ---------- footer ---------- */
+  .footer__title {
+    font-size: calc(var(--fs-30) + var(--fs-30));
+    text-align: center;
+  }
+
+  .footer__content {
+    width: 35%;
+  }
+
+  .nav__footer {
+    width: 55%;
+  }
+
+  .footer__item {
+    margin-top: 0;
+  }
 }
