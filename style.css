@@ -226,3 +226,14 @@ header {
 .section__info {
   background-color: var(--crl-off-white);
 }
+
+/* ---------- section__three ---------- */
+.section__three {
+  background-color: var(--clr-white);
+}
+
+.section__title {
+  font-size: var(--fs-30);
+  line-height: 1.2;
+  color: var(--crl-brown-light);
+}
