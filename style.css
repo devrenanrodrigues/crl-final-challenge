@@ -373,6 +373,10 @@ footer {
     font-size: var(--fs-24);
   }
 
+  .section__info .row{
+    gap: 8em;
+  }
+
   /* ---------- section__three ---------- */
   .wrapper .sidebar .col{
     margin-top: 0;
