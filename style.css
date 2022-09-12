@@ -221,3 +221,8 @@ header {
   color: var(--clr-white);
   font-size: var(--fs-18);
 }
+
+/* ---------- section__info ---------- */
+.section__info {
+  background-color: var(--crl-off-white);
+}
