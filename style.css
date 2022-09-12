@@ -237,3 +237,17 @@ header {
   line-height: 1.2;
   color: var(--crl-brown-light);
 }
+
+/* ---------- sidebar ---------- */
+.sidebar .col{
+  background-color: var(--clr-primary);
+}
+
+.sidebar .col__title {
+  font-size: var(--fs-24);
+  color: var(--clr-white);
+}
+
+.sidebar .col__text {
+  color: var(--clr-white);
+}
