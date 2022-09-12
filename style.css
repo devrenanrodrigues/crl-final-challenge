@@ -182,3 +182,20 @@ header {
   height: auto;
   position: relative;
 }
+
+/* ---------- hero ---------- */
+.hero {
+  background-color: var(--clr-primary);
+  padding-block: 10rem;
+}
+
+.hero__title {
+  font-size: calc(var(--fs-36) + var(--fs-18));
+  color: var(--clr-white);
+  line-height: 1;
+}
+
+.hero__text {
+  color: var(--clr-white);
+  font-size: var(--fs-18);
+}
